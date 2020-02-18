@@ -20,7 +20,7 @@ m: Number, 该钱包拥有者个数。若为1，则是个人钱包；若大于1�
 
 n: Number, 与m对应，不能大于m，指定需要签名的个数。若是个人钱包，则为1。
 
-opts: 可选参数，它是一个对象，包含的字断如下：
+opts: 可选参数，它是一个对象，包含的字段如下：
 
 opts.network: string, 钱包连接的网络类型，支持正式网络和测试网络，分别表示为：livenet、testnet。
 
@@ -30,7 +30,7 @@ opts.id: String, 钱包ID，可以不用指定，会自动生成。
 
 opts.singleAddress: bool, 使用单一地址，默认为false。
 
-cb: 回调方法。该方法是没有返回值的，响应的数据是通过callba回掉进行传递。
+cb: 回调方法。该方法是没有返回值的，响应的数据是通过callback回调进行传递。
 
 
 2. [import wallet](./src/import-wallet.js)
