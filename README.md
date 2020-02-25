@@ -41,4 +41,4 @@ cb: 回调方法。该方法是没有返回值的，响应的数据是通过call
 
 5. [send coin to address](./src/send.js)
 
-6. [import wallet by mnemonic](./src/import-by-mnemonic.js)
+6. [import wallet by mnemonic](./src/import-wallet-by-mnemonic.js)
